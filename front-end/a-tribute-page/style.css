@@ -1,0 +1,11 @@
+.jumbotron {
+	margin-top: 60px;
+}
+
+.container-fluid {
+	max-width: 1200px
+}
+
+.text-justify {
+  text-align: justify;
+}

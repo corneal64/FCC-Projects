@@ -1,0 +1,113 @@
+.container {
+	width: 31rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	display: none;
+}
+
+.temp {
+	font-size: 1.5rem;
+	text-shadow: 1.5px 1.8px#ecf0f1;
+	font-weight: bold;
+	color: #2c3e50;
+}
+
+.weekday {
+	font-size: 1.2rem;
+	text-shadow: 1.5px 1.8px#ecf0f1;
+	font-weight: bold;
+	color: #2c3e50;
+}
+
+.weatherIcon img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.fa-minus {
+	color: #778ca3;
+}
+
+.fa-heart {
+	color: #e74c3c;
+}
+
+#loader {
+	display: none;
+	padding-top: 2rem;
+}
+
+#weatherCard {
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#moreInfo.card-body {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#moreInfo {
+	display: none;
+}
+
+#showLess {
+	display: none;
+}
+
+#temperature {
+	font-size: 6rem;
+	color: #44bd32;
+}
+
+#location {
+	color: #2bcbba;
+}
+
+#todaysDate {
+	color: #3867d6;
+}
+
+#sunrise {
+	color: #fa8231;
+}
+
+#sunset {
+	color: #34495e;
+}
+
+#minTemp {
+	color: #0984e3;
+}
+
+#maxTemp {
+	color: #eb3b5a;
+}
+
+#humidity {
+	color: #0abde3;
+}
+
+#windSpeed {
+	color: #3867d6;
+}
+
+a {
+	color: #7f8c8d
+}
+
+a:hover {
+	text-decoration: none;
+	color: #7f8c8d
+}
+
+a:visited {
+	color: #7f8c8d;
+}
+
+.footer {
+	color: #7f8c8d;
+	display: none;
+}

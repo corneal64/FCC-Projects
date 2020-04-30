@@ -1,0 +1,17 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Cornelius",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
+}

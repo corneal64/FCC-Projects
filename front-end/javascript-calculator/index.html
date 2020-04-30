@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="" id="calcBodyCover">
+
+		<div class="container" id="calcBody">
+			<input id="screen" value="" disabled>
+
+			<div class="row">
+				<div class="col-xs-3 btn btn-default" id="clear">c</div>
+				<div class="col-xs-3 btn btn-default" id="erase"><i class="fa fa-arrow-left"></i></div>
+				<div class="col-xs-3 btn btn-default char" value="%" id="percent">%</div>
+				<div class="col-xs-3 btn btn-default char" value="/" id="divide">&divide;</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3 btn btn-default char" value="7" id="nine">7</div>
+				<div class="col-xs-3 btn btn-default char" value="8" id="nine">8</div>
+				<div class="col-xs-3 btn btn-default char" value="9" id="nine">9</div>
+				<div class="col-xs-3 btn btn-default char" value="*" id="times">&times;</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3 btn btn-default char" value="4" id="four">4</div>
+				<div class="col-xs-3 btn btn-default char" value="5" id="five">5</div>
+				<div class="col-xs-3 btn btn-default char" value="6" id="six">6</div>
+				<div class="col-xs-3 btn btn-default char" value="-" id="minus">&minus;</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3 btn btn-default char" value="1" id="one">1</div>
+				<div class="col-xs-3 btn btn-default char" value="2" id="two">2</div>
+				<div class="col-xs-3 btn btn-default char" value="3" id="three">3</div>
+				<div class="col-xs-3 btn btn-default char" value="+" id="plus">&plus;</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3 btn btn-default char" value="0" id="zero">0</div>
+				<div class="col-xs-3 btn btn-default char" value="." id="dot">.</div>
+				<div class="col-xs-3 btn btn-default" id="answer">Ans</div>
+				<div class="col-xs-3 btn btn-default" id="equals">=</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p><a href="https://www.freecodecamp.com/corneal64" target="_blank">Coded By Cornelius</a></p>
+	</footer>
+
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>

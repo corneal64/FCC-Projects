@@ -1,0 +1,46 @@
+.jumbotron {
+	background: #fff;
+	max-width: 700px;
+	width: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#quote {
+	width: 500px auto;
+	height: 200px auto;
+	text-align: justify;
+	color: #F4B350;
+}
+
+#author {
+	width: 500px auto;
+	height: 200px auto;
+	color: #F4B350;
+}
+
+.btn-default {
+	background: #F4B350;
+	color: #fff;
+}
+
+.btn-sm {
+	background: #F4B350;
+	color: #fff;
+}
+
+.btn-sm:hover {
+	background: #F4B350;
+	color: #fff;
+}
+
+.btn-default:hover {
+	color: #fff;
+	background: #F4B350;
+}
+
+body {
+	background: #F4B350;
+}

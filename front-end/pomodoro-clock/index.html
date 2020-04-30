@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Pomodoro Clock</title>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/flipclock/0.1/css/flipclock.css'>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container text-center">
+		<div id="top">
+			<div class="breakcontainer">
+				<div id="breakbtn">
+					<a class="btn btn-default btn-md" id="breakMinus"><i class="fa fa-minus" id="break-decrease"
+							aria-hidden="true"></i></a>
+					<span id="breaklength">break</span>
+					<a class="btn btn-default btn-md" id="breakPlus"><i class="fa fa-plus" id="break-increase"
+							aria-hidden="true"></i></a>
+				</div>
+			</div>
+
+			<div class="durationcontainer">
+				<div id="durationbtn">
+					<a class="btn btn-default btn-md" id="durationMinus"><i class="fa fa-minus" id="break-decrease"
+							aria-hidden="true"></i></a>
+					<span id="durationlength">duration</span>
+					<a class="btn btn-default btn-md" id="durationPlus"><i class="fa fa-plus" id="break-increase"
+							aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div id="display">
+			<h2>Work Time</h2><br />
+			<div id="workTime"></div>
+			<h2>Break Time</h2><br />
+			<div id="breakTime"></div>
+		</div>
+
+		<div id="bottom">
+			<button class="btn btn-default btn-lg" id="startClock">Start Clock</button>
+			<button class="btn btn-default btn-lg disabled" id="stopClock">Stop Clock</button>
+			<button class="btn btn-default btn-lg" id="resetClock">Reset Clock</button>
+		</div>
+	</div>
+
+	<footer>
+		<a href="https://www.freecodecamp.com/corneal64" target="_blank">Coded By Cornelius</a>
+	</footer>
+
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js'></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>

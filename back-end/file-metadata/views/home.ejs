@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>File Metadata Microservice Project</title>
+</head>
+
+<style>
+    .border {
+        width: 480px;
+        border: 3px solid #ecf0f1;
+        box-shadow: 1px 1px 1px #ecf0f1;
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .instruction {
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <div class="instruction">
+        <h1>File Metadata Microservice</h1>
+
+        <h2>Example Usage:</h2>
+        <code>Click "Choose File", pick a file, then click "Upload File"</code>
+
+        <h2>Example Output:</h2>
+        <code>{"filesize":2574125}</code>
+    </div>
+
+    <div class="border">
+        <h3>Please upload a file!</h3>
+
+        <form action="/" enctype="multipart/form-data" method="post">
+            <input type="file" name="file">
+            <br><br>
+            <input type="submit" value="Upload File">
+        </form>
+    </div>
+</body>
+
+</html>

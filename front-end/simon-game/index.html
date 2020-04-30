@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Simon Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="container board">
+
+		<div class="topbar">
+			<span id="title">Simon &reg; </span>
+			<span id="level"> </span>
+		</div>
+
+		<table class="table table-responsive">
+			<tr class="row">
+				<td class="box row1col1" id="red"></td>
+				<td class="box row1col2" id="green"></td>
+			</tr>
+
+			<tr class="row">
+				<td class="box row2col1" id="yellow"></td>
+				<td class="box row2col2" id="blue"></td>
+			</tr>
+		</table>
+
+		<div class="" id="message"></div>
+
+		<div class="buttons">
+			<div class="btn-group">
+				<button class="btn btn-success btn-lg stopped" id="btn1">Start</button>
+				<button class="btn btn-warning btn-lg" id="strictMode">Normal Mode</button>
+				<button class="btn btn-default btn-lg" id="sound"><span class="glyphicon glyphicon-volume-up"
+						id="volume"></span></button>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<br />
+			Created By <a target=_blank href="https://www.freecodecamp.com/corneal64">Cornelius</a>
+		</footer>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js">
+</script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>

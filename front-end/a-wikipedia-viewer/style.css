@@ -1,0 +1,58 @@
+body {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #ecf0f1;
+}
+
+.wikibox {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	margin: 10px 1px 3px 0px;
+	border-radius: 10px;
+	background: #fff;
+}
+
+a:link {
+	text-decoration: none;
+	color: #2ecc71;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #bdc3c7;
+}
+
+.wikibox:hover {
+	background: #FDE3A7;	
+}
+
+.title {
+	text-transform: capitalize;
+	margin: 5px;
+}
+
+.snippet {
+	color: #3498db;
+	text-align: left;
+	margin: 10px;
+}
+
+#input, #submit {
+	display:none;
+}
+
+.glyphicon-random {
+	margin-right: 7px;
+}
+
+.glyphicon-search {
+	margin-left: 10px;
+}
+
+footer {
+	margin-top: 20px;
+}

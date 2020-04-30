@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A simple url shortener",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Cornelius",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.1",
+    "url-regex": "^3.2.0",
+    "url-valid": "^0.3.0",
+    "valid-url": "^1.0.9"
+  }
+}

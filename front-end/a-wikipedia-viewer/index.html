@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>A Wikipedia Viewer</title>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div id="main">
+			<div class="text-center" id="searchbox">
+				<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+					<div class='glyphicon glyphicon-random'></div>
+				</a>
+				<a href="#">
+					<div class="glyphicon glyphicon-search"></div>
+				</a>
+				<input type="text" id="input">
+				<button class="btn btn-success" id="submit">Search</button>
+			</div>
+			<div id="wikibox"></div>
+		</div>
+
+		<footer>
+			<h5 class="text-center">Coded By <a href="https://www.freecodecamp.com/corneal64"
+					target="_blank">Cornelius</a></h5>
+		</footer>
+
+	</div>
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
