@@ -53,7 +53,7 @@ router.post('/api/exercise/add', async (req, res) => {
         description: result.logs[result.logs.length - 1].description,
         duration: result.logs[result.logs.length - 1].duration
       };
-      return res.send({ data });
+      return res.json(data);
     } catch (error) {
       return res.send(error.message);
     }
