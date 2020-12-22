@@ -23,9 +23,13 @@ Cick "Browse...", Choose a file, Click "Upload File"
 ## Example Output:
 
 ```json
-{ "filesize": 2574125 }
+{
+  "name": "my-logo.jpg",
+  "type": "image/jpeg",
+  "size": 428219
+}
 ```
 
-### A solution to the [FreeCodeCamp's](https://www.freecodecamp.com) [File Metadata Microservice Project](https://www.freecodecamp.com/challenges/file-metadata-microservice).
+### A solution to the [FreeCodeCamp's](https://www.freecodecamp.com) [File Metadata Microservice Project](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice).
 
 ### Coded by [Cornelius](https://www.freecodecamp.com/corneal64).
